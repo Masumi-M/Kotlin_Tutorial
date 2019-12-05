@@ -12,15 +12,15 @@ class MainActivity : AppCompatActivity() {
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigation_home -> {
-                message.setText(R.string.title_home)
+                change_text.setText(R.string.title_home)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_dashboard -> {
-                message.setText(R.string.title_dashboard)
+                change_text.setText(R.string.title_dashboard)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_notifications -> {
-                message.setText(R.string.title_notifications)
+                change_text.setText(R.string.title_notifications)
                 return@OnNavigationItemSelectedListener true
             }
         }
@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
 
         // Change the text of textView when the button pressed
-        val textView = findViewById<TextView>(R.id.message) as TextView
-        val button = findViewById<Button>(R.id.button) as Button
+        val textView = findViewById<TextView>(R.id.change_text) as TextView
+        val button = findViewById<Button>(R.id.change_button) as Button
 
         textView.text = "Before"
         button.setOnClickListener{ v->
