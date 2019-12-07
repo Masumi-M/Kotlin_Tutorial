@@ -10,7 +10,7 @@ A tutorial project for Kotlin.
 
 ## Demo
 
-<video src="/Users/masumi.morishige/AndroidStudioProjects/SampleKotlin/Demo.mp4"></video>
+<video src="./Demo.mp4"></video>
 
 ## Step1: Press the Button and change the Text
 ```kt
