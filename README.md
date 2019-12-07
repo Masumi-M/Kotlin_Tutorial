@@ -9,8 +9,7 @@ A tutorial project for Kotlin.
 - Main XML: `/app/src/main/AndroidManifest.xml`
 
 ## Demo
-
-<video src="./Demo.mp4"></video>
+Link: `./Demo.mp4`
 
 ## Step1: Press the Button and change the Text
 ```kt
